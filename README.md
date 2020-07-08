@@ -9,6 +9,15 @@ it is as a factory to create html element instance
 
 # ES6, JSX
 
+render(
+
+  React.createElement(node, class, value),
+  React.createElement("h1", null, this.props.children)
+
+)
+
+
+
 用 {} 取代 “”
 可利用全域變數設定屬性如類別名稱
 
