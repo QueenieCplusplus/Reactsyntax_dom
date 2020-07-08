@@ -16,5 +16,10 @@ it is as a factory to create html element instance
     var classV = 'a_class';
     
     <node tag className={classV}> value </node tag>
+    
+    
+{} 可以封裝物件也可以封裝函式結果
 
+
+    <node tag className={classV}> {this.getID()} </node tag>
 
