@@ -9,12 +9,16 @@ it is as a factory to create html element instance
 
 # ES6, JSX
 
-render(
+        render(){
 
-  React.createElement(node, class, value),
-  React.createElement("h1", null, this.props.children)
+           return(
 
-)
+          React.createElement(node, class, value),
+          React.createElement("h1", null, this.props.children)
+
+          );
+
+        }
 
 
 
