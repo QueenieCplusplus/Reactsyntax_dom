@@ -3,6 +3,20 @@ it is as a factory to create html element instance
 
 # ES5, HTML
 
+    render: function(){
+
+        // return React.createElement(type, prop, child); 
+        // type is htm tag, prop is component, 3rd param is value of props
+        return (
+        
+             <div className="">
+                <h1> time now is {this.props.day} </h1>
+             </div>
+        
+        );
+            
+    }
+
 
     <nod tag class=""> value </node tag>
 
@@ -13,8 +27,8 @@ it is as a factory to create html element instance
 
            return(
 
-          React.createElement(node, class, value),
-          React.createElement("h1", null, this.props.children)
+              React.createElement(node, class, value),
+              React.createElement("h1", null, this.props.children)
 
           );
 
