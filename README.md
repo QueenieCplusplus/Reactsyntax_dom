@@ -21,5 +21,5 @@ it is as a factory to create html element instance
 {} 可以封裝物件也可以封裝函式結果
 
 
-    <node tag className={classV}> {this.getID()} </node tag>
+    <node tag id={this.getID()} className={classV}> {this.props.children} </node tag>
 
