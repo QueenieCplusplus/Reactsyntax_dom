@@ -13,7 +13,7 @@ var KateIsBackApp = require('./reactComponentCalledClass2');
 // React.createElement('class'); create one element
 // React.DOM.class(); this is a factory, call many element by this
 //var RD = React.DOM; 舊版
-//var RD = ReactDOM; 新版 ES5 using npm require('react-dom');
+var RD = ReactDOM; //新版 ES5 using npm require('react-dom');
 // RD.KateIsBackApp();
 // var K = RD.KateIsBackApp;
 
@@ -22,6 +22,7 @@ var KClass = React.createClass({
     render: function(){
 
         return RD.KateIsBackApp()
+        //使用工廠製作
 
     }
 
