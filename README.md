@@ -1,4 +1,4 @@
-# Reactsyntax_dom
+# Reactsyntax dom
 it is as a factory to create html element instance
 
 # ES5, HTML
