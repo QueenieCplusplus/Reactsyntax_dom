@@ -27,7 +27,7 @@ var World = React.createClass({
 
     },
 
-    componentDidMount: function(){ //可能存在移除節點上元件後仍然存在元件的功能，造成記憶體洩漏
+    componentDidMount: function(){ //可能存在移除節點上元件後仍然存活的生命週期，造成記憶體洩漏
 
         autodo({
             target: this.refs.autoK.getDOMNode(),
