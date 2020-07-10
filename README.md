@@ -26,7 +26,16 @@ it is as a factory to create html element instance
            alert(kkk);
      
 
-      },
+      }
+      
+      //
+      
+      componentWillUnmount: function(){ //解決記憶體洩漏問題，在此生命週期中，將其DOM Node直接移除，可清理元件。
+
+        this.refs.autoK.getDOMNode().clear();
+        // this.res.autoK.getDOMNode().removeChild();
+
+     }
 
 # ES5, HTML
 
