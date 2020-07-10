@@ -11,6 +11,12 @@ it is as a factory to create html element instance
 底層節點，如要透過 react 與底層溝通，可藉由呼叫 ref 屬性存取特定元素。
 並在 react 生命週期的 componentDidMount()內執行，透過 getDOMNode 可取消和追加底層節點。
 
+      render: function(){
+
+            return <div ref="autoK"/> 
+
+      }
+
 # ES5, HTML
 
     render: function(){
