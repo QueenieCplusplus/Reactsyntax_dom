@@ -58,6 +58,10 @@ it is as a factory to create html element instance
             $(this.ele).superSelect('update', anotherParam);
      
      }
+     
+# superSelect() 
+
+https://www.itdaan.com/tw/8a848e11d6efc7edca2c1930db78a1b4 (元素過濾器)
 
 # ES5, HTML
 
