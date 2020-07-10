@@ -52,6 +52,12 @@ it is as a factory to create html element instance
         this.componentDidMount();
      
      }
+     
+     componentWillReceiveProps: function(anotherParam){
+     
+            $(this.ele).superSelect('update', anotherParam);
+     
+     }
 
 # ES5, HTML
 
