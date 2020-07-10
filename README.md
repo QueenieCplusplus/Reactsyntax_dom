@@ -8,7 +8,7 @@ it is as a factory to create html element instance
 
 # HTML DOM
 
-底層節點，如要透過 react 與底層溝通，可藉由呼叫 ref 屬性存取特定元素。
+底層節點，如要透過 react 與底層溝通，可在元件中添加 ref，一個元件中的所有 ref 都會自動添加到 this.refs 以存取特定元素。
 並在 react 生命週期的 componentDidMount()內執行，透過 getDOMNode 可修改底層節點。
 抑或是在生命週期的 componentWillUnmount() 內執行，透過 getDOMNode 可取消底層節點，避免記憶體洩漏。
 
