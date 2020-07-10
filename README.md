@@ -24,6 +24,11 @@ it is as a factory to create html element instance
 
            var kkk = this.refs.autoK.getDOMNode();
            alert(kkk);
+           
+           var ele = this.el = document.createElement('div');
+           this.getDOMNode().appendChild(ele);
+           $(ele).superSelect(this.state);
+           $(ele).on('事件', 方法名稱); // 建立監聽器
      
 
       }
@@ -34,7 +39,18 @@ it is as a factory to create html element instance
 
         this.refs.autoK.getDOMNode().clear();
         // this.res.autoK.getDOMNode().removeChild();
+        
+        this.getDomNode().removeChild(this.ele);
+        
+        $(this.ele).off(); // 移除監聽器
 
+     }
+     
+     compoentDidUpdate: function(){ // 重新載入
+     
+        this.componentWillUnmount();
+        this.componentDidMount();
+     
      }
 
 # ES5, HTML
