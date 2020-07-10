@@ -17,6 +17,16 @@ it is as a factory to create html element instance
             return <div ref="autoK"/> 
 
       }
+      
+      //
+      
+       componentDidMount: function(){ //可能有功能仍然存，即便移除節點上元件後，仍然存活的生命週期，造成記憶體洩漏
+
+           var kkk = this.refs.autoK.getDOMNode();
+           alert(kkk);
+     
+
+      },
 
 # ES5, HTML
 
