@@ -65,6 +65,8 @@ https://www.itdaan.com/tw/8a848e11d6efc7edca2c1930db78a1b4 (元素過濾器)
 
 # DOMNode ID
 
+如使用不受控元件，則經過序列化，react 元素的名稱識別極為重要。
+
 see reactDOMnode.js code
 
 # ES5, HTML
