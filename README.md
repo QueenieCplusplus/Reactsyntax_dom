@@ -63,6 +63,10 @@ it is as a factory to create html element instance
 
 https://www.itdaan.com/tw/8a848e11d6efc7edca2c1930db78a1b4 (元素過濾器)
 
+# DOMNode ID
+
+see reactDOMnode.js code
+
 # ES5, HTML
 
     render: function(){
